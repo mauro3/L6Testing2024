@@ -5,7 +5,7 @@ function car_travel_1D()
     V     = 113.0          # speed, km/h
     L     = 200.0          # length of segment, km
     dir   = 1              # switch 1 = go right, -1 = go left
-    ttot  = 16.0           # total time, h
+    ttot  = 26.0           # total time, h
     # Numerical parameters
     dt    = 0.1            # time step, h
     nt    = Int(cld(ttot, dt))  # number of time steps
